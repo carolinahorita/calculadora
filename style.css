@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 .calculadora {
-    width: 260px;
+    width: 300px;
     background: #ecf0f1;
     padding: 20px;
     border-radius: 15px;
@@ -47,9 +47,9 @@ button {
     font-size: 22px;
     font-weight: bold;
     border: none;
-    border-radius: 50%; /* Torna os botões redondos */
+    border-radius: 50%;
     cursor: pointer;
-    background: #3498db; /* Azul */
+    background: #1f33a2;
     color: white;
     transition: 0.3s;
 }
@@ -59,7 +59,7 @@ button:hover {
 }
 
 button:nth-child(1) { 
-    background: #e74c3c; /* Vermelho para o botão C */
+    background: #e74c3c;
 } 
 button:nth-child(1):hover { 
     background: #c0392b; 
