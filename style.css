@@ -46,15 +46,15 @@ button {
     font-size: 20px;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
-    background: #4bef74;
+    background: #1f33a2;
     color: white;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #a1ffb9;
+    background: #697deb;
 }
 
 button:nth-child(1) { 
